@@ -1,0 +1,22 @@
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 3px 4px black;
+}
+.weather > div {
+  border-bottom: 2px solid rgb(178, 251, 251);
+  width: 700px;
+  text-align: left;
+  padding: 2px 4px;
+}
+
+.weather span {
+  margin-left: 16px;
+  text-align: center;
+}
